@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-4n4_%y0l3@yuu^^e_5i&7ga%_ligue7fgaqw48g9+x-*uo0t)9
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "luvenia-feodora-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "luvenia-feodora-mentalhealthtracker.pbp.cs.ui.ac.id", "10.0.2.2"]
 
 
 # Application definition
