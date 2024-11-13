@@ -194,7 +194,11 @@
       document.getElementById("mood_entry_cards").className = classNameString;
       document.getElementById("mood_entry_cards").innerHTML = htmlString;
   }
+
+  document.getElementById("moodEntryForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    addMoodEntry();
+  })
   refreshMoodEntries();
-  document.getElementById("submitMoodEntry").onclick = addMoodEntry
 </script>
 {% endblock content %}
